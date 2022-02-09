@@ -1,0 +1,19 @@
+.menu-sup{
+    background: rgb(245, 30, 30);
+}
+
+.redesociais-header{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.icon-phone-receiver{
+}
+
+.menu-sup a{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+}
