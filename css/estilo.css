@@ -1,16 +1,16 @@
-.menu-sup{
-    background: rgb(245, 30, 30);
+.menu-principal{
+    background-color: #bbc2c7;
 }
 
-.redesociais-header{
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-}
-
-.menu-sup a{
+.menu-superior{
     color: #FFF;
-    font-size: 18px;
-    font-weight: 700;
-    vertical-align: middle;
+}
+
+.nav-link{
+    color: #FFF;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
 }
