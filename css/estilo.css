@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Ubuntu-Regular;
+    src: url(../font/Ubuntu-Regular.ttf)
+}
+
 .menu-principal{
     background-color: #bbc2c7;
 }
@@ -11,6 +16,47 @@
 }
 
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
+
+.menu{
+    color: #000;
+    position: relative;
+}
+
+.carousel .slide{
+    background-color: #272d33;
+    margin-bottom: 0;
+}
+
+.carousel-text{
+    color:#FFF;
+    text-shadow: 4px 5px 10px #333;
+}
+
+.call-to-action{
+    background-color: #272d33;
+    padding: 0;
+    color: #FFF;
+}
+
+section{
+    position: relative;
+}
+
+.h3sub{
+    font-family: Ubuntu-Regular;
+    height: 60px;
+}
+
+.call-to-action-btn-angle{
+    background: #dc3545;
+    min-height: 80px;
+    padding: 28px 0;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+
