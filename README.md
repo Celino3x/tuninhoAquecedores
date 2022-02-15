@@ -1,5 +1,5 @@
 # Tuninho Aquecedores Landing Page 
-![LuaRocks](https://img.shields.io/luarocks/v/Celino3x/tuninhoAquecedores/0.1)
+
 
 Projeto de modernização e rebranding do site www.tuninhoaquecedores.com.br .
 
