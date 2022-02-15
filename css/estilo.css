@@ -52,11 +52,57 @@ section{
 
 .call-to-action-btn-angle{
     background: #dc3545;
-    min-height: 80px;
-    padding: 28px 0;
+    height: 60px;
+    padding: 8px 0;
     position: relative;
     text-align: center;
     color: #FFF;
 }
 
+.send{
+    color: #FFF;
+}
 
+.send:hover{
+    color: rgb(209, 206, 47);
+}
+
+.btn a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn a:hover{
+    text-decoration: none;
+    color: rgb(209, 206, 47);
+}
+
+.pulse{
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@-webkit-keyframes pulse{
+    0%{
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(100%);
+    }
+    100%{
+        -webkit-transform: scale(1.1);
+        -webkit-filter: brightness(200%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
