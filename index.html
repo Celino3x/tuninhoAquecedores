@@ -12,11 +12,11 @@
 <body>
     
     <header class="container">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-light" role="navigation" aria-label="main navigation">
             
             <div class="navbar-brand">
-              <a class="navbar-item" href="https://bulma.io">
-                <img src="img/logo.png" class="logo">
+              <a class="navbar-item" href="#">
+                <img src="img/logotuninho.png" width="150" height="30">
               </a>
           
               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -138,19 +138,10 @@
         </div>
     </section>
 
-    <div class="columns is-vcentered is-justify-content-space-evenly has-background m-0 p-5">
-        <div class="column is-one-third">
 
-        </div>
-
-
-
-
-
-    </div>
 
     <div class="columns is-vcentered is-justify-content-space-evenly p-5">
-        <div column is-one-third>
+        <div class="column is-one-third container ">
             <p class="title is-2 is-spaced">
                 Nossos trabalhos
             </p>
@@ -201,6 +192,107 @@
             </div>
         </div>
     </section>
+
+<!-- Contato-->
+
+<section class="hero heroColorDefault py4">
+    <div class="hero-body">
+        <p class="title secaoTitulo">
+            Contato
+        </p>
+        <p class="subtitle secaoTitulo">
+            Atendemos todo Rio de Janeiro
+        </p>
+    </div>
+</section>
+
+<section class="container py-6">
+      
+    <div class="columns is-vcentered">
+        <div class="column is-4 ">
+            <p class="title is-two-thirds">
+                Localização
+            </p>
+            <p class="subtitle">
+                <ion-icon name="location-outline"></ion-icon> Rua Baeta Neves, 10 - Inhoaíba, Rio de Janeiro - RJ
+            </p>
+
+            <p class="title is-two-thirds sigaClass">
+                Siga-nos
+            </p>
+            <p class="subtitle">
+                <nav class="">
+                    <div class="container has-text-danger">
+                        <p></p>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <ion-icon class="sigaSocial" name="logo-facebook"></ion-icon>
+                                </a>
+                                <a href="">
+                                    <ion-icon class="sigaSocial" name="logo-instagram"></ion-icon>
+                                </a>
+                                <a href="">
+                                    <ion-icon class="sigaSocial" name="logo-whatsapp"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </p>
+        </div>
+        <div class="column is-offset-1">
+            <form class="" action="">
+                <div class="field">
+                    <label class="label">Nome</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Ex. João Fulano" required>
+                        </div>
+                        <p class="help">Digite seu nome.</p>
+                </div>
+        
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input class="input" type="email" placeholder="exemplo@exemplo.com"  required>
+                      <span class="icon is-small is-left">
+                        <ion-icon name="mail-outline"></ion-icon>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                      </span>
+                    </div>
+                    <p class="help">Digite seu e-mail para contato</p>
+                  </div>
+        
+                <div class="field">
+                    <label class="label">Assunto</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Ex. Orçamento"  required>
+                        </div>
+                </div>
+        
+                <div class="field">
+                    <label class="label">Mensagem</label>
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Mensagem"></textarea>
+                    </div>
+                  </div>
+        
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button heroColorDefault">Enviar</button>
+                    </div>
+                  </div>
+        
+            </form>
+        </div>
+    </div>
+</section>
+
+    <footer class="has-background-dark has-text-centered has-text-white py-6">
+        <p>Todos direitos reservados para Tuninho Aquecedores&#169; Copyright 2022</p>
+    </footer>
 
       <script src="/js/menu.js"></script>
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

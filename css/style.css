@@ -69,3 +69,23 @@ a:hover{
 .imgslide{
     margin-left: 40px;
 }
+
+/* Contato */
+
+.sigaClass{
+    margin-top: 50px !important;
+}
+
+.sigaSocial{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.sigaSocial:hover{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    color: #D71921;
+}
