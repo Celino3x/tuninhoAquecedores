@@ -17,6 +17,6 @@ a:hover{
     color: rgb(240, 115, 58);
 }
 
-.is-danger:hover{
+.btnChamado:hover{
     color: rgb(246, 250, 23) !important;
 }
