@@ -1,0 +1,22 @@
+.logo{
+}
+
+a:hover{
+    color: hsl(348, 75%, 50%) !important;
+}
+
+.iconSocial{
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+
+.iconSocial:hover{
+    height: 30px;
+    width: 30px;
+    color: rgb(240, 115, 58);
+}
+
+.is-danger:hover{
+    color: rgb(246, 250, 23) !important;
+}

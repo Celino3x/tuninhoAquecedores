@@ -1,169 +1,140 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/carousel.css">
-    <title>Tuninho Aquecedores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Tuninho Aquecedores | Principal</title>
 </head>
 <body>
+    
+    <header class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            
+            <div class="navbar-brand">
+              <a class="navbar-item" href="https://bulma.io">
+                <img src="img/logo.png" class="logo">
+              </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item">
+                  Início
+                </a>
+          
+                <a class="navbar-item">
+                  Sobre
+                </a>
 
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid barra-superior">
-      <!--<a class="navbar-brand" href="#">Carousel</a>-->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link" href="tel:21987849565"><i class="bi bi-telephone-fill"></i> (21) 98784-9565</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-wrench-adjustable-circle-fill"></i> Abrir Chamado</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-check2-square"></i> Avaliar Serviço</a>
-          </li>
-        </ul>
-        <ul class="nav">
-          <li>
-              <a class="navbar-brand" href="#"><i class="bi bi-facebook"></i></a>
-          </li>
-          <li>
-              <a class="navbar-brand" href="#"><i class="bi bi-whatsapp"></i></a> 
-          </li>
-          <li>
-              <a class="navbar-brand" href="#"><i class="bi bi-instagram"></i></a>
-          </li>
-      </ul>
-        <!--<form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>-->
-      </div>
-    </div>
-  </nav>
+                <a class="navbar-item">
+                    Serviços
+                </a>
 
-  <header id="header" class="header">
-    <div class="container">
-      <div class="row">
-        
-        <div class="site-nav-inner menu">
-          <!-- Teste NAVBAR-->
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a href="#"><img class="logo" src="img/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Início</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                  </li>
-                </ul>
+                <a class="navbar-item">
+                    Contato
+                </a>
+          
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                      <div class="buttons">
+                        <a class="button is-danger">
+                          <strong>Abrir Chamado</strong>
+                        </a>
+                        <a class="button is-light" href="tel:+55(21) 98784-9565">
+                            <ion-icon name="call-outline"></ion-icon> &nbsp;Ligue: (21) 98784-9565
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
               </div>
+
             </div>
           </nav>
-          <!-- Teste NAVBAR-->
-        </div>
-      </div>
-    </div>
-  </header>
-      <main>
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style=" margin-bottom: 0px;">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/Aquecedores-a-gas_marcas_3.png" class="d-block w-100 img-carousel" alt="">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-        
-                <div class="container">
-                  <div class="carousel-caption text-start carousel-text">
-                    <h1>Assistência Técnica</h1>
-                    <p>Aquecedores, Pressurizadores , Boilhers e Fogões.</p>
-                    <p><a class="btn btn-lg btn-danger" href="#">Conheça Nossos Serviços</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/RealGas-1920x1080px_img29-1.jpg" class="d-block w-100" alt="">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-        
-                <div class="container">
-                  <div class="carousel-caption carousel-text">
-                    <h1>Tuninho Aquecedores</h1>
-                    <p>Tem os melhores profissionais para conserto, manutenção e assistência técnica.</p>
-                    <p><a class="btn btn-lg btn-danger" href="#">Saiba mais</a></p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="img/realgas.jpg" alt="">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-        
-                <div class="container">
-                  <div class="carousel-caption text-end carousel-text">
-                    <h1>Confiança</h1>
-                    <p>Temos essas principais marcas do mercado de aquecedores e pressurizadores de água do Brasil! Atendendo em todo Rio de Janeiro!</p>
-                    <p><a class="btn btn-lg btn-danger" href="#">Veja mais</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+    </header>
 
-          </div>
-       
-      </main>
-
-      <section class="call-to-action h3sub">
+    <div class="hero-body">
         <div class="container">
-          <div class="row">
-            <div class="col-md-10 col-xs-12">
-              <h3 class="call-to-action-title">Atendemos em todo Rio de Janeiro</h3>
+            <div class="columns is-vcentered">
+                <div class="column is-4 ">
+                    <p class="title is-two-thirds">
+                        Assistência Técnica
+                    </p>
+                    <p class="subtitle">
+                        Aquecedores, pressurizadores, boilhers e fogões.
+                    </p>
+                </div>
+                <div class="column is-offset-1">
+                    <img src="/img/aquecedor.png" alt="Banner">
+                </div>
             </div>
-            <div class="col-md-2 col-xs-12 pulse">
-              <div class="call-to-action-btn-angle">
-                <button class="btn"><a href="#">Entre em contato <i class="send bi bi-send-fill"></i></a></button>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </section>
+    </div>
 
-      <div class="container">
-          <h1>Teste</h1>
-      </div>
+    <div class="hero-foot">
+        <nav class="">
+            <div class="container has-text-danger">
+                <p></p>
+                <ul>
+                    <li>
+                        <a href="">
+                            <ion-icon class="iconSocial" name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="">
+                            <ion-icon class="iconSocial" name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="">
+                            <ion-icon class="iconSocial" name="logo-whatsapp"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a922503613.js" crossorigin="anonymous"></script>        
+    <!--Sobre-->
+
+    <section class="hero is-danger py-4">
+        <div class="hero-body">
+            <p class="title">
+                Sobre
+            </p>
+            <p class="subtitle">
+                Lirem dolor ipsum sit amet
+            </p>
+        </div>
+    </section>
+
+    <div class="columns is-vcentered is-justify-content-space-evenly p-5">
+        <div column is-one-third>
+            <p class="title is-2 is-spaced">
+                Nossos trabalhos
+            </p>
+            <p class="subtitle is-6">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam perferendis, labore quaerat delectus rerum voluptatum blanditiis
+            </p>
+            <button class="button is-danger is-medium">Saiba mais</button>
+        </div>
+        <div class="column is-falf">
+            <img src="/img/undraw000.png" alt="">
+        </div>
+    </div>
+
+      <script src="/js/menu.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
